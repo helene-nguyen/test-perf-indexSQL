@@ -102,7 +102,7 @@ ____
 
 ### Tous les types d'index en  PostgreSQL – Types d’index
 
-<https://fr.acervolima.com/postgresql-types-d-index/>
+Source [des différents types ici](https://fr.acervolima.com/postgresql-types-d-index)
 
 Dans cet article, nous examinerons les types d’index dans [PostgreSQL](https://fr.acervolima.com/qu-est-ce-que-postgresql-introduction/) et comment les utiliser de manière appropriée.
 
