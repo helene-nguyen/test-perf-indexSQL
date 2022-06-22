@@ -5,7 +5,7 @@
 
 D'un SGBD à l'autre, ce n'est pas toujours le même algorithme d'indexation qui est utilisé. La plupart des SGBD propose d'ailleurs plusieurs types.
 
-Les 2 plus populaires sont :
+Les 3 plus populaires sont :
 
 - B-tree
 - Hash
