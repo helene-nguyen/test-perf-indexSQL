@@ -70,23 +70,23 @@ USING HASH (age);
 
 Source : <https://stackoverflow.com/questions/24197856/what-is-difference-between-index-and-view-in-mysql>
 
-```ad-note
-**VIEW**
 
--   View est une table logique. C'est un objet physique qui stocke les données de manière logique. La vue fait simplement référence aux données qui sont stockées dans les tables de base.
--   Une vue est une entité logique. Il s'agit d'une instruction SQL stockée dans la base de données du tablespace système. Les données d'une vue sont générées dans une table créée par le moteur de base de données dans l'espace table TEMP.
-
-**INDEX**
-
--   Les index sont des pointres qui correspondent à l'adresse physique des données. Ainsi, en utilisant des index, la manipulation des données devient plus rapide.
--   Un index est une méthode de réglage des performances permettant une récupération plus rapide des enregistrements. Un index crée une entrée pour chaque valeur qui apparaît dans les colonnes indexées.
-
-**ANALOGIE** :
-
-Supposons que dans un magasin, supposons que vous ayez plusieurs racks. Catégoriser chaque rack en fonction des éléments enregistrés revient à créer un index. Ainsi, vous sauriez exactement où chercher pour trouver un élément particulier. C'est l'indexation.
-
-Dans le même magasin, vous souhaitez connaître plusieurs données, par exemple, les produits, l'inventaire, les données de vente et d'autres éléments sous forme de rapport consolidé, puis il peut être comparé à une vue.
-```
+> **VIEW**
+> 
+> -   View est une table logique. C'est un objet physique qui stocke les données de manière logique. La vue fait simplement référence aux données qui sont stockées dans les tables de base.
+> -   Une vue est une entité logique. Il s'agit d'une instruction SQL stockée dans la base de données du tablespace système. Les données d'une vue sont générées dans une table créée par le moteur de base de données dans l'espace table TEMP.
+> 
+> **INDEX**
+> 
+> -   Les index sont des pointres qui correspondent à l'adresse physique des données. Ainsi, en utilisant des index, la manipulation des données devient plus rapide.
+> -   Un index est une méthode de réglage des performances permettant une récupération plus rapide des enregistrements. Un index crée une entrée pour chaque valeur qui apparaît dans les colonnes indexées.
+> 
+> **ANALOGIE** :
+> 
+> Supposons que dans un magasin, supposons que vous ayez plusieurs racks. Catégoriser chaque rack en fonction des éléments enregistrés revient à créer un index. Ainsi, vous sauriez exactement où chercher pour trouver un élément particulier. C'est l'indexation.
+> 
+> Dans le même magasin, vous souhaitez connaître plusieurs données, par exemple, les produits, l'inventaire, les données de vente et d'autres éléments sous forme de rapport consolidé, puis il peut être comparé à une vue.
+> 
 
 ## - VIEW stocke les requêtes complexes
 
